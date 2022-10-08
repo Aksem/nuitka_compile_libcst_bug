@@ -100,7 +100,6 @@ jobs:
             --show-memory \
             --show-modules \
             --trace-execution \
-            --include-data-dir=${{ env.PACKAGE_NAME }}/resources=${{ env.PACKAGE_NAME }}/resources \
             ${{ matrix.nuitkaArgs }} \
             ${{ env.PACKAGE_NAME }}/${{ env.MAIN_MODULE }}.py
         shell: bash
