@@ -10,7 +10,7 @@ defaults:
     shell: bash
 
 env:
-  PACKAGE_NAME: nuitka_load_module_regression
+  PACKAGE_NAME: nuitka_compile_libcst_bug
   MAIN_MODULE: main
 
 jobs:
