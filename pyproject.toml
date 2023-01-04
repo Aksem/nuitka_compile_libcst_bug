@@ -1,15 +1,15 @@
 [tool.poetry]
-name = "nuitka-load-module-regression"
+name = "nuitka-compile-libcst-bug"
 version = "0.1.0"
 description = ""
 authors = ["Vladyslav Hnatiuk <aders1234@gmail.com>"]
 readme = "README.md"
-packages = [{include = "nuitka_load_module_regression"}]
+packages = [{include = "nuitka_compile_libcst_bug"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
-nuitka = "^1.1.3"
-watchfiles = "^0.17.0"
+nuitka = "^1.3.5"
+libcst = "^0.4.9"
 
 
 [build-system]
